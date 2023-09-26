@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN TOUR</title>
+
+    <link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/e8eb7c73e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid  border border-bottom-1">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-md-4">
+                        <a href="">
+                            <img src="../../View/layout/img/logo_can_travel.jpg" alt="" height="100px">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <form action="index.html" method="post" class="position-relative">
+                            <input type="search" class="form-control border border-info rounded-pill"
+                                placeholder="Tìm kiếm tour...">
+                            <button type="submit" class="btn position-absolute top-50 end-0 translate-middle-y">
+                                <i class="fa-solid fa-magnifying-glass text-info"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 container-fluid d-flex justify-content-around align-items-center">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-regular fa-user"></i>
+                                Tài khoản
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="account">
+                                <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+                                <li><a class="dropdown-item" href="signup.html">Đăng ký</a></li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <a href="" class="text-decoration-none text-body position-relative">
+                                <i class="fa-regular fa-heart"></i>
+                                Yêu thích
+                                <span
+                                    class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-danger">
+                                    2
+                                </span>
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="" class="text-decoration-none text-body position-relative">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    2
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-light">
+                <div class="container">
+                    <div class="row text-uppercase fs-6 fw-bolder">
+                        <ul class="nav d-flex justify-content-between align-items-center fw-normal">
+                            <li class="nav-item">
+                                <a class="nav-link text-info" href="../../index.html">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">Tour du lịch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">Tour khuyến mãi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">Tin tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">Kinh nghiệm du lịch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            text-secondary:hover {
+                color: dodgerblue !important;
+            }
+        </style>
+    </header>
+    <main>
+        <div class="container-fluid bg-light">
+            <div class="container d-flex align-items-center">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb my-1">
+                        <li class="breadcrumb-item"><a href="../../index.html"
+                                class="text-secondary text-decoration-none">Trang chủ</a></li>
+                        <li class="breadcrumb-item active text-info" aria-current="page">Đăng nhập</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="container my-3">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8 col-lg-4 bg-light">
+                    <img src="img/banner/account-banner.png" alt="">
+                </div>
+                <div class="col-md-8 col-lg-4 shadow">
+                    <div class="row">
+                        <div class="col text-center py-1 my-1 h5 border-2 border-bottom border-info">
+                            <a href="login.html" class="text-decoration-none text-body">
+                                Đăng nhập
+                            </a>
+                        </div>
+                        <div class="col text-center py-1 my-1 fs-5">
+                            <a href="signup.html" class="text-decoration-none text-body">
+                                Đăng ký
+                            </a>
+                        </div>
+                    </div>
+                    <div class="">
+                        <form>
+                            <div class="mb-3">
+                                <label for="account" class="form-label">Tài khoản</label>
+                                <input type="text" class="form-control" id="account" name="account">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Mật khẩu</label>
+                                <input type="password" class="form-control" id="password" name="password">
+                            </div>
+                            <div class="mb-3 form-check text-end">
+                                <a href="" class=" text-decoration-none">Quên mật khẩu?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary container-fluid text-uppercase fw-bold">Đăng nhập</button>
+                        </form>
+                    </div>
+                    <p class="text-center fw-lighter p-2" style="font-size: 14px;">
+                        CAN TOUR cam kết bảo mật và sẽ không bao giờ đăng
+                        hay chia sẻ thông tin mà chưa có được sự đồng ý của bạn.
+                    </p>
+                    <hr>
+                    <p class="text-center fw-light" style="font-size: 14px;">Hoặc đăng nhập bằng</p>
+                    <div class="d-flex justify-content-evenly mb-2">
+                        <button type="button" class="btn btn-info text-white">
+                            <i class="fa-brands fa-square-facebook fa-lg"></i>
+                            Facebook
+                        </button>
+                        <button type="button" class="btn btn-danger text-white">
+                            <i class="fa-brands fa-square-google-plus fa-lg"></i>
+                            Google
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark container-fluid text-white mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col my-2">
+                    <img src="" alt="">
+                    <div class="d-flex">
+                        <p class="mx-1">Địa chỉ:</p>
+                        <p>Đ. Số 1, Gò Vấp, TP HCM</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="mx-1">Email:</p>
+                        <p>truonghuynhcan@gmail.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="mx-1">Điện thoại:</p>
+                        <p>0971735xxx</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="mx-1">Zalo:</p>
+                        <p>0971735xxx</p>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <img src="View/layout/img/icon/payment_1.svg" alt="">
+                        <img src="View/layout/img/icon/payment_2.svg" alt="">
+                        <img src="View/layout/img/icon/payment_4.svg" alt="">
+                        <img src="View/layout/img/icon/payment_5.svg" alt="">
+                    </div>
+                </div>
+                <div class="col my-2">
+                    <h5 class="h6 text-capitalize">CAN tour</h5>
+                    <ul class="list-unstyled px-2">
+                        <li>
+                            <a href="../../index.html" class="text-white text-decoration-none">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Tour du lịch</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Tour khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Kinh nghiệm du lịch</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Liên hệ</a>
+                        </li>
+                        <style>
+                            a.text-white:hover {
+                                font-weight: bold;
+                            }
+                        </style>
+                    </ul>
+                </div>
+                <div class="col my-2">
+                    <h5 class="h6 text-capitalize">Tour miền bắc</h5>
+                    <ul class="list-unstyled px-2 text-capitalize">
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Sapa</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Hà Giang</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Cao Bằng - Bắc Kạn</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Mai Châu - Mộc Châu</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Yên Bái</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Ninh Bình</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Hạ Long</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Cát Bà</a>
+                        </li>
+                        <style>
+                            a.text-white:hover {
+                                font-weight: bold;
+                            }
+                        </style>
+                    </ul>
+                </div>
+                <div class="col my-2">
+                    <h5 class="h6">Tour miền nam</h5>
+                    <ul class="list-unstyled px-2 text-capitalize">
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Phú Quốc</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Côn Đảo</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Bến tre</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Cần Thơ</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Cà Mau</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Hà Tiên</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Kiên Giang</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-white text-decoration-none">Nam Du</a>
+                        </li>
+                        <style>
+                            a.text-white:hover {
+                                font-weight: bold;
+                            }
+                        </style>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="../../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
